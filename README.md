@@ -1,9 +1,13 @@
-# flask-app-template
-Starting template for a python Flask application
+# Custom ChatGPT Bot with Redis Search and Python Flask
+Starting template for a the Custom ChatGPT Chatbot Application. 
 
+This repository provides a comprehensive guide for building a custom ChatGPT chatbot powered by your data, Redis Search, and the OpenAI Cookbook, all integrated into a Python Flask application.
+
+Learn how to set up a Redis Stack server, create and manage a Redis Search index, and integrate ChatGPT to provide accurate and relevant responses based on your data. This guide covers deployment using both Docker and virtual servers.
+
+## YouTube Channel
 Check out out [YouTube Channel here](https://www.youtube.com/c/SkoloOnline)
 
-## Pull the repo
 
 ## Set up the project
 Start by installing virtual environment if you do not already have it.
