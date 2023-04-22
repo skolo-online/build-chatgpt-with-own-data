@@ -8,6 +8,8 @@ Learn how to set up a Redis Stack server, create and manage a Redis Search index
 ## YouTube Channel
 Check out out [YouTube Channel here](https://www.youtube.com/c/SkoloOnline)
 
+Checkout the video
+[Video Detailing How To Use This Repo](https://youtu.be/fEHHK6-ix3c)
 
 ## Set up the project
 Start by installing virtual environment if you do not already have it.
