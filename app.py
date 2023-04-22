@@ -22,8 +22,7 @@ def index():
         prompt = request.form['prompt']
 
         res = {}
-        #res['answer'] = aiapi.generateChatResponse(prompt)
-        res['answer'] = notebook.customChatGPTAnswer(prompt)
+        res['answer'] = aiapi.generateChatResponse(prompt)
         return jsonify(res), 200
 
     return render_template('index.html', **locals())
