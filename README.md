@@ -21,6 +21,9 @@ virtualenv chatgptenv
 souce chatgptenv/bin/activate
 ```
 
+## Create a folder called data
+Save your PDF files in there, note this project will only work with PDF files. Watch the video to see how you can customise the code for othe rinput types. 
+
 ## Install required python packages
 
 ```sh
@@ -36,8 +39,16 @@ pip install textract
 pip install tiktoken
 ```
 
+## Instal Redis Stack Server
+In your Ubuntu Virtual server
+```sh
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+sudo apt-get update
+sudo apt-get install redis-stack-server
+```
 
-## Check Redis Stack Server Installation
+### Check Redis Stack Server Installation
 ```sh
 sudo systemctl status redis-stack-server
 ```
